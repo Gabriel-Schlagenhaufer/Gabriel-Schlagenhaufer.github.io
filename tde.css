@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: teal;
+}
+
+.fotoFixa{
+    position: fixed;
+    top: 10px;
+    left: -15px;
+    width: 150px;
+    height: 150px;
+}
+
+.topo{
+    min-height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.topoTitulo{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.conteudos{
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao{
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.botao:hover{
+    background-color: rgb(112, 238, 238);
+    border-color: gainsboro;
+    cursor: pointer;
+}
+
+.espacoBotao{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    width: 50%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.pdfs{
+    width: 1280px;
+    height: 720 px;
+}
+
+.baixo{
+    height: 100px;
+}
