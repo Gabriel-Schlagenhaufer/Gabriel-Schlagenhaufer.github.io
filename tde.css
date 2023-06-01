@@ -2,7 +2,7 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background-color: blue;
+    background-color: teal;
 }
 
 .fotoFixa{
@@ -80,12 +80,4 @@ body{
 
 .baixo{
     height: 100px;
-}
-
-pre code {
-    background-color: #eee;
-    border: 1px solid #999;
-    display: block;
-    padding: 20px;
-    color: black;
 }
